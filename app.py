@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the dataset
-df = pd.read_csv("cleaned_df.csv")
+df = pd.read_csv("Cleaned_df.csv")
 
 
 with open("Log_reg_model.pkl","rb") as file:
@@ -74,4 +74,5 @@ if c2.button("Predict"):
     if pred==0:
         st.subheader("Low risk of Heart disease")
     else:
+
         st.subheader("High risk of Heart disease")
