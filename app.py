@@ -76,3 +76,4 @@ if c2.button("Predict"):
     else:
 
         st.subheader("High risk of Heart disease")
+
